@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	/*margin-right: auto;
+	margin-left: auto;
+	text-align: center;*/
+}
+
+
+.nav-bar{
+	position: fixed;
+	top: 0;
+  	left: 0;
+  	right: 0;
+  	padding: 10px;
+	background-color: #EEEEEE;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: center;
+    font-size: 12px;
+}
+
+main {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+p {
+	max-width: 400px;
+}
+
+.container {
+	padding: 0 60px;
+	padding-top: 90px;
+}
+
+.user-was-correct {
+	font-size: 25px;
+	color:blue;
+}
+
+
+.user-was-incorrect {
+	font-size: 25px;
+	color: red;
+}
+
+.introduction {
+	font-size: 30px;
+	color:blue;
+}
+
+.feedback-text-header {
+	font-size: 10px;
+}
